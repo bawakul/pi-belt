@@ -1,0 +1,16 @@
+{
+	"name": "pi-belt",
+	"version": "2.0.0",
+	"description": "A three-slot work-in-progress limiter for pi — picks one thing per session and rewards returning to work you've already started.",
+	"keywords": ["pi-package"],
+	"type": "module",
+	"license": "MIT",
+	"files": ["*.ts", "README.md", "LICENSE"],
+	"peerDependencies": {
+		"@earendil-works/pi-coding-agent": "*",
+		"@earendil-works/pi-tui": "*"
+	},
+	"pi": {
+		"extensions": ["./index.ts"]
+	}
+}
